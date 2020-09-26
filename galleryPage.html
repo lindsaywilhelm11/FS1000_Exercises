@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--Link to the css file will be here-->
+    <title>Gallery</title>
+</head>
+<body>
+    <header>
+        <nav id="headerNav">
+            <a href="galleryPage.html">Gallery</a>
+            <a href="about_usPage.html">About Us</a>
+            <a href="Contact_usPage.html">Contact Us</a>
+        </nav>
+    </header>
+    <main id="mainGalleryPage">
+        <div id="galleryFlexContainer"> <!--I'll use flexbox to control the dynamicly change the layout on this page-->
+            <!--I plan on using a front end framework to dynamicly add/change what content is shown here depending on which tag it has.-->
+
+            <div class="galleryPost"><!--This is what the front-end framwork would be dynamicly adding to this page-->
+                <!--each post will link to it's own page-->
+                <a href="postPage.html"><figure>
+                    <img class="postThumbnail" src="images/thumbnail-placeholder.png"> <!--this is where the image thumbnail will be-->
+                    <figcaption>Image caption goes here<figcaption>
+                </figure></a>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
