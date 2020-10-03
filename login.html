@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--Link to the css file will be here-->
+</head>
+<body>
+    <header>
+        <nav id="headerNav">
+            <a href="galleryPage.html">Gallery</a>
+            <a href="about_usPage.html">About Us</a>
+            <a href="Contact_usPage.html">Contact Us</a>
+        </nav>
+    </header>
+    <main id="mainLogin">
+        <form id="loginForm" target="_blank" action="fakeLoginChecker.php" method="POST"> <!-- there is no fakeLoginChecker.php-->
+            <label for="user">Username:</label>
+            <input id="user" name="user" type="text" placeholder="Admin" required><br>
+            <label for="pass">Password:</label>
+            <input id="pass" name="user" type="password" placeholder="" required><br>
+            <input id="submit" type="submit" name="submit" value="Log In" onclick="window.location.href ='Admin.html'">
+        </form>
+    </main>
+    <footer>
+        <nav id="footerNav">
+            <a href="galleryPage.html">Gallery</a>
+            <a href="about_usPage.html">About Us</a>
+            <a href="Contact_usPage.html">Contact Us</a>
+        </nav>
+    </footer>
+</body>
+</html>
