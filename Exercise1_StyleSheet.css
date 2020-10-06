@@ -1,0 +1,21 @@
+th {color: #eeeeee;}
+
+img {
+    border: 7.5px solid #e8e8e8;
+    }
+
+.oddRow {
+    background-color: #5c969e;
+}
+
+.oddRow:hover {
+    background-color: #8675a9;
+}
+
+.evenRow {
+    background-color: #fcdada;
+}
+
+.evenRow:hover {
+    background-color: #c3aed6;
+}
